@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LoadingAnimation">
+        <attr name="dots_color" />
+        <attr name="dots_count" />
+        <attr name="dots_duration" />
+        <attr name="dots_size" />
+    </declare-styleable>
+
+    <attr name="dots_color" format="color" />
+
+    <attr name="dots_count" format="integer" />
+
+    <attr name="dots_duration" format="integer" />
+
+    <attr name="dots_size" format="dimension|reference" />
+
+
+    <declare-styleable name="Circle">
+        <attr name="radius" format="dimension" />
+        <attr name="color" format="color" />
+        <attr name="shouldDrawOnlyStroke" format="boolean" />
+        <attr name="strokeWidth" format="dimension" />
+    </declare-styleable>
+
+</resources>
