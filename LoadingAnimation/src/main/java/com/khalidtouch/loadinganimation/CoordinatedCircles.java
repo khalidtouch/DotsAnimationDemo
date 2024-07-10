@@ -67,8 +67,6 @@ public abstract class CoordinatedCircles extends LinearLayout {
     private void configureView() {
         setOrientation(LinearLayout.HORIZONTAL);
         setGravity(Gravity.CENTER);
-        LayoutParams params = new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
-        setLayoutParams(params);
         setBackgroundColor(Color.TRANSPARENT);
     }
 }
